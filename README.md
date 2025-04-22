@@ -18,6 +18,10 @@ wget https://raw.githubusercontent.com/carspediem/diode/main/setup.sh && chmod +
 ```
 
 
+
+
+
+
 ### 1. Kurulum sonrası işlemler: Platforma cüzdan bağlama
 * Websitesi: https://diodenetwork.io/app/ 
 
