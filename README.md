@@ -62,40 +62,36 @@ p0xUHtufRS_tMNd9XRvnxbMmXPtOyRbPrQLnLN4j3VNsDhwSrpRYpwbnhMZ2
 
 
 
-### 4. Zone'a Kayıt olma:
+### 4. Programa kayıt olma:
 
 - Aşağıdaki kodunu fotoğrafta görünen registrar kanalına yapıştırıp gönderiyoruz.
 - Kodu girdikten sonra "I Accept" yazarak kabul ediyoruz ve daha sonra bizede paylaşmamız için bir kod veriyor. Bununla sizde arkadaşlarınızı davet edebilirsiniz.
 
-  ```bash
+```bash
 UCKDHVBGAEXDVSKHNWNI
 ```
-
 ![image](https://github.com/user-attachments/assets/f09266e7-28c2-4508-967c-2f8680770d81)
 
 
 
-
-
-
-### 3. Kurulum sonrası Zone bağlanma:
-### 3. Kurulum sonrası Zone bağlanma:
+### 5. Cüzdan bağlama
 
 Websitesine bağlamış olduğunuz cüzdan adresini aşağıdaki komutla profilinize kayıt edin.
 
 ```bash
-set wallet CUZDANADRESI```
+set wallet CUZDANADRESI
+```
 
 ![image](https://github.com/user-attachments/assets/067aac74-777a-4d88-8941-28bc49899db4)
 
----
 
-## 🧑‍💻 Sunucuda çalıştırdığımız Node'u uygulamada kayit etmek
+## 🧑‍💻 6. Sunucuda çalıştırdığımız Node'u uygulamada kayit etmek
 
 Sunucuda çalıştırdığımız nodumuzu videoda ve aşağıdaki fotoda gözüktüğü gibi kayıt edelim. Node sayısında herhangi bir sınırlama yok, istenildiği kadar eklenebilir. Ne kadar çok sunucu o kadar çok node o kadar çok puan.
 
 ```bash
-register node NODEIDSI```
+register node NODEIDSI
+```
 
 ![image](https://github.com/user-attachments/assets/7fa5e779-dd32-4e3d-8fc5-adfd4bb343bc)
 
