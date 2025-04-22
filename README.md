@@ -99,6 +99,13 @@ register node NODEIDSI
 ![image](https://github.com/user-attachments/assets/7fa5e779-dd32-4e3d-8fc5-adfd4bb343bc)
 
 
+## 7. Dashboard üzerinde kurduğunuz tüm node'ları ve kastığınız puanları görüntüleyin
+
+```bash
+https://diodenetwork.io/app/
+```
+
+
 
 ## 🔗 Kaynaklar
 
