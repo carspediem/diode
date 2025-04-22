@@ -31,8 +31,7 @@ Link: https://diode.io/#download-app
 
 - Sağ tepeden önce Get App'a tıkla
 - Sistemine uygun olan versiyonu indir kur
-
-- 
+ 
 
 **UYARI**- **Dosyanın virustotal taraması link: https://www.virustotal.com/gui/file/9a0e07f05a1bec7526880dbc21079265e7b775c5c6bdd3c770e289a4147d4375 Ancak her ihtimale karşı başka bir bilgisayarda kurabilirsiniz. Node kayıt işlemleri için uygulamayı indirip kurmamız şart**
 
