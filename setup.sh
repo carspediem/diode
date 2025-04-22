@@ -37,8 +37,9 @@ sudo snap install diode-node
 wait_with_countdown 10
 
 echo "📦 Node bilgileri gösteriliyor..."
-diode info
+diode-node.info
 wait_with_countdown 5
 
 echo "✅ Kurulum tamamlandı!"
-echo "📬 İletişim: X @dakpluto"
+wait_with_countdown 5
+echo "Bol Kazançlar! 📬 İletişim: X @dakpluto"
