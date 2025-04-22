@@ -1,8 +1,6 @@
 #!/bin/bash
-
 echo "📦 Gerekli temel paketler kuruluyor..."
 sudo apt update && sudo apt install -y sudo apt ufw snapd
-
 echo "🔧 Gerekli portlar açılıyor..."
 sudo ufw allow 22
 sudo ufw allow 38537
