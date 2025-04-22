@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bashhttps://github.com/carspediem/diode/blob/main/setup.sh
 echo "📦 Gerekli temel paketler kuruluyor..."
 sudo apt update && sudo apt install -y sudo apt ufw snapd
 echo "🔧 Gerekli portlar açılıyor..."
@@ -22,6 +22,9 @@ sudo apt install snapd -y
 
 echo "🛠️ Diode Node kuruluyor..."
 sudo snap install diode-node
+
+echo "⏳ Kurulumun tamamlanması birkaç saniye sürebilir..."
+sleep 20
 
 echo "📦 Node bilgileri gösteriliyor..."
 diode info
