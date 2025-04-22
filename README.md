@@ -11,61 +11,85 @@ Bu rehber, Diode Network ağına katılıp pasif gelir elde etmek isteyenler iç
 
 ---
 
-## ⚙️ Kurulum Adımları
-
-### Portlari Ac
+## ⚙️ Tek kodla kurulum
 ```
-sudo ufw allow 22
-sudo ufw allow 38537
-sudo ufw allow 51055
-sudo ufw allow 41046
-sudo ufw allow 443
-sudo ufw allow 993
-sudo ufw allow 1723
-sudo ufw allow 10000
-sudo ufw allow 8545
-sudo ufw allow 8443
+wget https://raw.githubusercontent.com/carspediem/diode/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
-### 1. Sistemi Güncelleyin:
+### Platforma cüzdan bağlama
+* Websitesi: https://diodenetwork.io/app/ 
+
+İster yeni bir burner cüzdan isterse normal kullandığınız cüzdan ile bağlanabilirsiniz. 
+
+### Diode Collab masaüstü uygulamasını indir
+
+Link: https://diode.io/#download-app
+
+- Sağ tepeden önce Get App'a tıkla
+- Sistemine uygun olan versiyonu indir kur 
+
+**UYARI:
+**- Dosyanın virustotal taraması link: https://www.virustotal.com/gui/file/9a0e07f05a1bec7526880dbc21079265e7b775c5c6bdd3c770e289a4147d4375 Ancak her ihtimale karşı başka bir bilgisayarda kurabilirsiniz. Node kayıt işlemleri için uygulamayı indirip kurmamız şart
+
+
+![image](https://github.com/user-attachments/assets/90fe3ed1-ddd2-4708-933e-28e64efc7bef)
+
+
+
+### Kurulum sonrası Zone bağlanma:
+- Kurulum tamamlandıktan sonra profil oluşturun .
+- Daha sonra aşağıdaki videoda gösterildiği gibi main zone kodunu yapıştırıp join diyin
+- Sync bir kaç dakika sürebiliyor, isterseniz dismiss diyip atlayın
+- Kodu yazarak Zone'a katılın:
+
 ```bash
-sudo apt update && sudo apt upgrade -y
+p0xUHtufRS_tMNd9XRvnxbMmXPtOyRbPrQLnLN4j3VNsDhwSrpRYpwbnhMZ2
 ```
 
-### 2. Snapd Kurulumu:
-```bash
-sudo apt install snapd -y
+![image](https://github.com/user-attachments/assets/6da979ce-3952-44c6-a934-ae3bb21aab9e)
+
+![image](https://github.com/user-attachments/assets/dee940bb-002b-40e0-a991-65ad6a698d29)
+
+![image](https://github.com/user-attachments/assets/a9978890-9e21-4fe0-9aed-6237e668d8a9)
+
+
+
+### Zone'a kayıt olma:
+
+- Aşağıdaki kodunu fotoğrafta görünen registrar kanalına yapıştırıp gönderiyoruz.
+- Kodu girdikten sonra "I Accept" yazarak kabul ediyoruz ve daha sonra bizede paylaşmamız için bir kod veriyor. Bununla sizde arkadaşlarınızı davet edebilirsiniz.
+
+  ```bash
+UCKDHVBGAEXDVSKHNWNI
 ```
 
-### 3. Diode Node Kurulumu:
-```bash
-sudo snap install diode-node
-```
+![image](https://github.com/user-attachments/assets/f09266e7-28c2-4508-967c-2f8680770d81)
 
-### 4. Node Bilgilerini Görüntüleme:
+
+### Cüzdan Kayıt etme
+
+Websitesine bağlamış olduğunuz cüzdan adresini aşağıdaki komutla profilinize kayıt edin.
+
 ```bash
-diode info
-```
+set wallet CUZDANADRESI```
+
+![image](https://github.com/user-attachments/assets/067aac74-777a-4d88-8941-28bc49899db4)
 
 ---
 
-## 🌐 Uygulmayi kurmak
+## 🧑‍💻 Sunucuda çalıştırdığımız Node'u uygulamada kayit etmek
+
+Sunucuda çalıştırdığımız nodumuzu videoda ve aşağıdaki fotoda gözüktüğü gibi kayıt edelim. Node sayısında herhangi bir sınırlama yok, istenildiği kadar eklenebilir. Ne kadar çok sunucu o kadar çok node o kadar çok puan.
 
 ```bash
-diode serve 80
-```
+register node NODEIDSI```
 
-Bu komut ile port 80 üzerinden ağınızı dışarıya açabilirsiniz.
+![image](https://github.com/user-attachments/assets/7fa5e779-dd32-4e3d-8fc5-adfd4bb343bc)
 
----
 
-## 🧑‍💻 Node kayit etmek
-
-Masaüstü uygulamasından `Zone ID` ile bağlanarak ya da QR kod taratarak ağ oluşturabilir, referans sistemiyle katılım sağlayabilirsiniz.
-
----
 
 ## 🔗 Kaynaklar
 
 - 📚 [Resmi Belgeler](https://network.docs.diode.io)  
 - 🌍 [Web Sitesi](https://diodenetwork.io)
+- CoreNode'a özel teşekkürler
