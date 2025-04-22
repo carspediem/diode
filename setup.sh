@@ -4,11 +4,16 @@ echo "📦 Gerekli temel paketler kuruluyor..."
 sudo apt update && sudo apt install -y sudo apt ufw snapd
 
 echo "🔧 Gerekli portlar açılıyor..."
-PORTS=(22 38537 51055 41046 443 993 1723 10000 8545 8443)
-for PORT in "${PORTS[@]}"
-do
-    sudo ufw allow $PORT
-done
+sudo ufw allow 22
+sudo ufw allow 38537
+sudo ufw allow 51055
+sudo ufw allow 41046
+sudo ufw allow 443
+sudo ufw allow 993
+sudo ufw allow 1723
+sudo ufw allow 10000
+sudo ufw allow 8545
+sudo ufw allow 8443
 sudo ufw reload
 
 echo "🚀 Sistem güncelleniyor..."
