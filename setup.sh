@@ -1,13 +1,27 @@
 #!/bin/bash
+echo " "
+echo " "
+echo " "
+     _       _          _       _        
+    | |     | |        | |     | |       
+  __| | __ _| | ___ __ | |_   _| |_ ___  
+ / _` |/ _` | |/ / '_ \| | | | | __/ _ \ 
+| (_| | (_| |   <| |_) | | |_| | || (_) |
+ \__,_|\__,_|_|\_\ .__/|_|\__,_|\__\___/ 
+                 | |                     
+                 |_|                     
 
-echo "🚀 Diode Node tam otomatik kurulum başlatılıyor..."
+echo " "
+echo " "
+echo " "
+echo " "
+echo "\U0001F680 Dakpluto sunar: Diode Node tam otomatik kurulum başlatılıyor..."
 
-# 1. Temel araçlar ve UFW kur
-echo "🔧 Gerekli paketler kuruluyor..."
+# Gerekli temel paketler
 sudo apt update && sudo apt install -y sudo apt ufw snapd
 
-# 2. Gerekli portları aç
-echo "🌐 Portlar açılıyor..."
+# Gerekli portları aç
+echo "🌐 Gerekli portlar açılıyor..."
 PORTS=(22 38537 51055 41046 443 993 1723 10000 8545 8443)
 for PORT in "${PORTS[@]}"
 do
@@ -15,18 +29,17 @@ do
 done
 sudo ufw reload
 
-# 3. Sistemi güncelle
-echo "🔄 Sistem güncelleniyor..."
+# Sistemi güncelle
 sudo apt update && sudo apt upgrade -y
 
-# 4. Snapd kurulumu
-echo "📦 Snapd kuruluyor..."
+# Snapd tekrar kurulursa
 sudo apt install snapd -y
 
-# 5. Diode Node kurulumu
-echo "⚙️ Diode Node kuruluyor..."
+# Diode Node kurulumu
 sudo snap install diode-node
 
-# 6. Kurulum sonrası kontrol
+# Node bilgilerini göster
 echo "✅ Kurulum tamamlandı. Node bilgileri aşağıda:"
 diode info
+
+echo "📬 İletişim: X @dakpluto"
