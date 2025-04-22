@@ -1,12 +1,9 @@
 #!/bin/bash
 
-echo "Dakpluto sunar: Diode Node tam otomatik kurulum başlatılıyor..."
-
-echo # Gerekli temel paketler
+echo "📦 Gerekli temel paketler kuruluyor..."
 sudo apt update && sudo apt install -y sudo apt ufw snapd
 
-echo # Gerekli portları aç
-echo "Gerekli portlar açılıyor..."
+echo "🔧 Gerekli portlar açılıyor..."
 PORTS=(22 38537 51055 41046 443 993 1723 10000 8545 8443)
 for PORT in "${PORTS[@]}"
 do
@@ -14,17 +11,16 @@ do
 done
 sudo ufw reload
 
-echo # Sistemi güncelle
+echo "🚀 Sistem güncelleniyor..."
 sudo apt update && sudo apt upgrade -y
 
-echo # Snapd tekrar kurulursa
+echo "📁 Snapd tekrar kuruluyor..."
 sudo apt install snapd -y
 
-echo # Diode Node kurulumu
+echo "🛠️ Diode Node kuruluyor..."
 sudo snap install diode-node
 
-echo # Node bilgilerini göster
-echo "Kurulum tamamlandı. Node bilgileri aşağıda:"
+echo "📦 Node bilgileri gösteriliyor..."
 diode info
 
-echo "İletişim: X @dakpluto"
+echo "İşlem tamamlandı.📬 İletişim: X @dakpluto"
