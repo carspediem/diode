@@ -13,6 +13,9 @@ Bu rehber, Diode Network ağına katılıp pasif gelir elde etmek isteyenler iç
 
 
 ## ⚙️ Tek kodla kurulum
+
+- Aşağıda vermiş olduğum kodu ya yeni aldığınız bir sunucuya yada mevcut sunucuya yapıştırıp enterlıyorsunuz. Otomatik kurulum tamamlanıyor ve size node idsi veriyor.
+
 ```
 wget https://raw.githubusercontent.com/carspediem/diode/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
