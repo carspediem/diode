@@ -67,8 +67,8 @@ p0xUHtufRS_tMNd9XRvnxbMmXPtOyRbPrQLnLN4j3VNsDhwSrpRYpwbnhMZ2
 
 ### 4. Programa kayıt olma:
 
-- Aşağıdaki kodunu fotoğrafta görünen registrar kanalına yapıştırıp gönderiyoruz.
-- Kodu girdikten sonra "I Accept" yazarak kabul ediyoruz ve daha sonra bizede paylaşmamız için bir kod veriyor. Bununla sizde arkadaşlarınızı davet edebilirsiniz.
+- Aşağıda vermiş olduğum kodu fotoğrafta görünen sol taraftaki **registrar** kanalına yapıştırıp gönderiyoruz.
+- Kodu girdikten sonra "**I Accept**" yazarak kabul ediyoruz ve daha sonra bizede paylaşmamız için bir kod veriyor. Bununla sizde arkadaşlarınızı davet edebilirsiniz.
 
 ```bash
 UCKDHVBGAEXDVSKHNWNI
