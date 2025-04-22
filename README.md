@@ -4,39 +4,45 @@ Bu rehber, Diode Network ağına katılıp pasif gelir elde etmek isteyenler iç
 
 ## 🧱 Gereksinimler
 
-- Ubuntu/Debian sistem  
+- Ubuntu/Debian sistem - Kişisel bilgisayar (bilgisayarda port sıkıntısı olabiliyor, o yüzden sunucu kiralamak en iyisi)
 - `snapd` paket yöneticisi  
 - Açık portlar
 - Kesintisiz internet
 
 ---
 
+
 ## ⚙️ Tek kodla kurulum
 ```
 wget https://raw.githubusercontent.com/carspediem/diode/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
-### Platforma cüzdan bağlama
+
+### 1. Kurulum sonrası işlemler: Platforma cüzdan bağlama
 * Websitesi: https://diodenetwork.io/app/ 
 
 İster yeni bir burner cüzdan isterse normal kullandığınız cüzdan ile bağlanabilirsiniz. 
 
-### Diode Collab masaüstü uygulamasını indir
+
+
+### 2. Diode Collab masaüstü uygulamasını indir
 
 Link: https://diode.io/#download-app
 
 - Sağ tepeden önce Get App'a tıkla
-- Sistemine uygun olan versiyonu indir kur 
+- Sistemine uygun olan versiyonu indir kur
 
-**UYARI:
-**- Dosyanın virustotal taraması link: https://www.virustotal.com/gui/file/9a0e07f05a1bec7526880dbc21079265e7b775c5c6bdd3c770e289a4147d4375 Ancak her ihtimale karşı başka bir bilgisayarda kurabilirsiniz. Node kayıt işlemleri için uygulamayı indirip kurmamız şart
+- 
+
+**UYARI**- **Dosyanın virustotal taraması link: https://www.virustotal.com/gui/file/9a0e07f05a1bec7526880dbc21079265e7b775c5c6bdd3c770e289a4147d4375 Ancak her ihtimale karşı başka bir bilgisayarda kurabilirsiniz. Node kayıt işlemleri için uygulamayı indirip kurmamız şart**
 
 
 ![image](https://github.com/user-attachments/assets/90fe3ed1-ddd2-4708-933e-28e64efc7bef)
 
 
 
-### Kurulum sonrası Zone bağlanma:
+
+### 3. Kurulum sonrası Zone bağlanma:
 - Kurulum tamamlandıktan sonra profil oluşturun .
 - Daha sonra aşağıdaki videoda gösterildiği gibi main zone kodunu yapıştırıp join diyin
 - Sync bir kaç dakika sürebiliyor, isterseniz dismiss diyip atlayın
@@ -54,7 +60,9 @@ p0xUHtufRS_tMNd9XRvnxbMmXPtOyRbPrQLnLN4j3VNsDhwSrpRYpwbnhMZ2
 
 
 
-### Zone'a kayıt olma:
+
+
+### 4. Zone'a Kayıt olma:
 
 - Aşağıdaki kodunu fotoğrafta görünen registrar kanalına yapıştırıp gönderiyoruz.
 - Kodu girdikten sonra "I Accept" yazarak kabul ediyoruz ve daha sonra bizede paylaşmamız için bir kod veriyor. Bununla sizde arkadaşlarınızı davet edebilirsiniz.
@@ -66,7 +74,12 @@ UCKDHVBGAEXDVSKHNWNI
 ![image](https://github.com/user-attachments/assets/f09266e7-28c2-4508-967c-2f8680770d81)
 
 
-### Cüzdan Kayıt etme
+
+
+
+
+### 3. Kurulum sonrası Zone bağlanma:
+### 3. Kurulum sonrası Zone bağlanma:
 
 Websitesine bağlamış olduğunuz cüzdan adresini aşağıdaki komutla profilinize kayıt edin.
 
