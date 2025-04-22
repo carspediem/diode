@@ -1,28 +1,5 @@
 #!/bin/bash
 
-# Renk kodları
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-YELLOW='\033[0;33m'
-BLUE='\033[0;34m'
-NC='\033[0m'
-
-# DAKPLUTO
-echo " "
-echo " "
-echo " "
-echo -e "${BLUE}     _       _          _       _   ${NC}"    
-echo -e "${BLUE}    | |     | |        | |     | |${NC}"       
-echo -e "${BLUE}  __| | __ _| | ___ __ | |_   _| |_ ___  ${NC}"
-echo -e "${BLUE} / _` |/ _` | |/ / '_ \| | | | | __/ _ \ ${NC}"
-echo -e "${BLUE}| (_| | (_| |   <| |_) | | |_| | || (_) |${NC}"
-echo -e "${BLUE} \__,_|\__,_|_|\_\ .__/|_|\__,_|\__\___/ ${NC}"
-echo -e "${BLUE}                 | |${NC}"                     
-echo -e "${BLUE}                 |_|${NC}"
-echo " "
-echo " "
-echo " "
-echo " "
 echo "\U0001F680 Dakpluto sunar: Diode Node tam otomatik kurulum başlatılıyor..."
 
 # Gerekli temel paketler
